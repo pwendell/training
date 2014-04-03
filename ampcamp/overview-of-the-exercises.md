@@ -22,13 +22,10 @@ Once you've used SSH to log into the master, run the `ls` command and you will s
 Some of the more important ones are listed below:
 
 - Templates for exercises:
-   - `streaming`: Standalone program for Spark Streaming exercises
    - `java-app-template`: Template for standalone Spark programs written in Java
    - `scala-app-template`: Template for standalone Spark programs written in Scala
-   - `shark`: Shark installation
    - `spark`: Spark installation
    - `machine-learning`: Root directory for machine learning module
-   - `blinkdb`: BlinkDB installation
 
 - Useful scripts/documentation:
    - `spark-ec2`: Suite of scripts to manage Spark on EC2
@@ -37,7 +34,6 @@ Some of the more important ones are listed below:
 - Infrastructure:
    - `ephemeral-hdfs`: Hadoop installation
    - `scala-2.10.3`: Scala installation
-   - `hive`: Hive installation
 
 You can find a list of your 5 slave nodes in spark-ec2/slaves:
 

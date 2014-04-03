@@ -23,17 +23,12 @@ The tutorial begins with a set of introductory excercises which should be done _
 
 1. [Scala](introduction-to-the-scala-shell.html) - a quick crashcourse on the Scala language and command line interface.
 2. [Spark](data-exploration-using-spark.html) [(project homepage)](http://spark.incubator.apache.org) - a fast cluster compute engine.
-3. [Shark](data-exploration-using-shark.html) [(project homepage)](http://shark.cs.berkeley.edu) - a SQL layer on top of Spark.
 
 ## Advanced Exercises
 These can be done _**in any order**_ according to your interests.
 
-<ol start="4">
-  <li><a href="realtime-processing-with-spark-streaming.html">Spark Streaming</a> <a href="http://spark-project.org/docs/latest/streaming-programming-guide.html">(project homepage)</a> - A stream processing layer on top of Spark.</li>
+<ol start="3">
   <li><a href="movie-recommendation-with-mllib.html">Machine Learning with MLLib</a> <a href="http://spark.incubator.apache.org/docs/latest/mllib-guide.html">(project homepage)</a> - Build a movie recommender with Spark.</li>
-  <li><a href="graph-analytics-with-graphx.html">Graph Analytics with GraphX</a> <a href="http://spark.incubator.apache.org/docs/latest/graphx-programming-guide.html">(project homepage)</a> - Explore graph-structured data (e.g., Web-Graph) and graph algorithms (e.g., PageRank) with GraphX.</li>
-  <li><a href="tachyon.html">Tachyon</a> <a href="http://tachyon-project.org/">(project homepage)</a> - Deploy a reliable in-memory filesystem across the cluster.</li>
-  <li><a href="blinkdb.html">BlinkDB</a> <a href="http://blinkdb.org/">(project homepage)</a> - Use SQL with statistical sampling to decrease latency.</li>
 </ol>
 
 
@@ -62,28 +57,11 @@ table td, table th {
   <td class="no">no</td>
   <td class="yes">yes</td>
 </tr><tr>
-  <td>Shark Interactive</td>
-  <td colspan="3" class="yes">All SQL</td>
-</tr><tr>
-  <td>Spark Streaming</td>
-  <td class="yes">yes</td>
-  <td class="yes">yes</td>
-  <td class="no">no</td>
-</tr><tr>
   <td>Machine Learning</td>
   <td class="yes">yes</td>
   <td class="no">no</td>
   <td class="no">no</td>
-</tr><tr>
-  <td>GraphX - Graph Analytics</td>
-  <td class="yes">yes</td>
-  <td class="no">no</td>
-  <td class="no">no</td>
-</tr><tr>
-  <td>BlinkDB - SQL With Sampling</td>
-  <td colspan="3" class="yes">All SQL</td>
 </tr>
-
 </tbody>
 </table>
 </center>
