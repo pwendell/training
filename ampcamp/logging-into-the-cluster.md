@@ -39,16 +39,16 @@ __Question: I got the following permission error when I ran the above command. H
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @             WARNING: UNPROTECTED PRIVATE KEY FILE!              @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-Permissions 0644 for '../ampcamp.pem' are too open.
+Permissions 0644 for '../stanford-workshop.pem' are too open.
 It is recommended that your private key files are NOT accessible by others.
 This private key will be ignored.
-bad permissions: ignore key: ../ampcamp.pem
+bad permissions: ignore key: ../stanford-workshop.pem
 Permission denied (publickey).
 </pre>
 
 __Answer:__ Run this command, then try to log in again:
 
-    chmod 600 ../ampcamp.pem
+    chmod 600 ../stanford-workshop.pem
 </div>
 <div class="tab-pane" id="login_windows" markdown="1">
 You can use [PuTTY](http://www.putty.org/) to log into the cluster from Windows.
@@ -63,7 +63,7 @@ You can use [PuTTY](http://www.putty.org/) to log into the cluster from Windows.
 
    ![Enter login in PuTTY](img/putty-login.png)
 
-4. Click on Connection > SSH > Auth in the Category area and enter the path to the private key file (`ampcamp-all.ppk`) that was sent to you by mail.
+4. Click on Connection > SSH > Auth in the Category area and enter the path to the private key file (`stanford-workshop.ppk`) that was sent to you by mail.
 
    ![Enter login in PuTTY](img/putty-private-key.png)
 
