@@ -7,7 +7,7 @@ navigation:
 ---
 
 # Welcome
-Welcome to the Stanford Workshop hands-on exercises! These exercises are extended and enhanced from those given at previous <a href="http://ampcamp.berkeley.edu">AMP Camp Big Data Bootcamps</a>. They were written by volunteer graduate students and postdocs in the <a href="https://amplab.cs.berkeley.edu/">UC Berkelay AMPLab</a>. Many of those same graduate students are present today as teaching assistants. The exercises we cover today will have you working directly with the Spark specific components of the AMPLab's open-source software stack,
+Welcome to the Stanford Workshop hands-on exercises! These exercises are extended and enhanced from those given at previous <a href="http://ampcamp.berkeley.edu">AMP Camp Big Data Bootcamps</a>. They were written by volunteer graduate students and postdocs in the <a href="https://amplab.cs.berkeley.edu/">UC Berkelay AMPLab</a>, and members of the open-source team at Databricks. Many of these individuals are present today as teaching assistants. The exercises we cover today will have you working directly with the Spark specific components of the AMPLab's open-source software stack,
 called the <a href="https://amplab.cs.berkeley.edu/software/">Berkeley Data Analytics Stack
 (BDAS)</a>.
 
@@ -25,7 +25,6 @@ The tutorial begins with a set of introductory excercises which should be done _
 2. [Spark](data-exploration-using-spark.html) [(project homepage)](http://spark.incubator.apache.org) - a fast cluster compute engine.
 
 ## Advanced Exercises
-These can be done _**in any order**_ according to your interests.
 
 <ol start="3">
   <li><a href="movie-recommendation-with-mllib.html">Machine Learning with MLLib</a> <a href="http://spark.incubator.apache.org/docs/latest/mllib-guide.html">(project homepage)</a> - Build a movie recommender with Spark.</li>
