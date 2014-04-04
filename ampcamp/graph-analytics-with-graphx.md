@@ -1,6 +1,6 @@
 ---
 layout: global
-title: Graph Analytics With GraphX (Optional)
+title: <b>(Optional)</b> Graph Analytics With GraphX
 categories: [module]
 navigation:
   weight: 80
